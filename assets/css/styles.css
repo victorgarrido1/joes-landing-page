@@ -1,0 +1,32 @@
+* body {
+    background-color: orange;
+    box-sizing: border-box;
+
+}
+
+/* Style the image tag */
+.img-container img {
+    display: block; /* Ensure the image takes up the full width of its container */
+    max-width: auto; /* Limit the maximum width of the image to 100% of its container */
+    height: 10%; /* Maintain aspect ratio */
+    max-height: 50px; /* Set a maximum height for the image */
+    /* Add any additional styling for the image tag */
+}
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  /* CSS */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .freeman-regular {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem; /* Adjust the value as needed for the desired size */
+  }
