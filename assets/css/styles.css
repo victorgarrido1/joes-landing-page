@@ -1,32 +1,96 @@
 * body {
-    background-color: orange;
-    box-sizing: border-box;
-
+  background-color: orange;
+  box-sizing: border-box;
 }
 
 /* Style the image tag */
 .img-container img {
-    display: block; /* Ensure the image takes up the full width of its container */
-    max-width: auto; /* Limit the maximum width of the image to 100% of its container */
-    height: 10%; /* Maintain aspect ratio */
-    max-height: 50px; /* Set a maximum height for the image */
-    /* Add any additional styling for the image tag */
+  display: block; /* Ensure the image takes up the full width of its container */
+  max-width: auto; /* Limit the maximum width of the image to 100% of its container */
+  height: 10%; /* Maintain aspect ratio */
+  max-height: 50px; /* Set a maximum height for the image */
+  /* Add any additional styling for the image tag */
 }
 
-  body {
-    font-family: Arial;
-    margin: 0;
-  }
-  /* CSS */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+/* CSS */
 .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* JOES BURGER CSS CHANGES */
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem; /* Adjust the value as needed for the desired size */
+  padding: 20px; /* Adjust the value as needed */
+}
+.custom-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #ff4742;
+  color: #ff4742;
+  background: 0 0;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+  font-weight: 800;
+  font-size: 16px;
+  height: 62px;
+}
+
+.custom-button:hover {
+  background-color: #fff47242;
+  color: #ff4742;
+}
+
+.formkit-input {
+  height: 50px; /* Adjust the height as needed */
+}
+
+/* FOR THE FORM SUBSCRIBE CONFIRM TEXT */
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 50px; /* Fixing typo: Changed "50ox" to "50px" */
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem; /* This sets the bottom margin to 1.25rem (20px) */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* This sets the font size to 0.875rem (14px) */
+}
+
+.font-medium {
+  font-weight: 500; /* This sets the font weight to medium (500) */
+}
+
+.text-gray-500 {
+  color: #6b7280; /* This sets the text color to a shade of gray (#6B7280) */
+}
+
+.dark:text-gray-300 {
+  color: #d1d5db; /* This sets the dark mode text color to a lighter shade of gray (#D1D5DB) */
+}
+
+/* For the Terms Privacy/Acc */
   
-  .freeman-regular {
-    font-family: "Freeman", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 5rem; /* Adjust the value as needed for the desired size */
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* only important for multiple lines */
+  
+    padding: 0 20px;
   }
