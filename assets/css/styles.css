@@ -99,3 +99,21 @@ body {
 .container h3 {
   text-align: center;
 }
+
+/* SWIPE CSS */
+.swiper {
+  width: 900px; /* Set the width of the swiper */
+  height: 300px; /* Set the height of the swiper */
+}
+
+.swiper-container {
+  height: 500px; /* Set the height of the swiper container */
+}
+
+.swiper-slide {
+  background: #ccc; /* Set the background color of each slide */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-size: 20px; /* Set the font size of text in the slide */
+}
