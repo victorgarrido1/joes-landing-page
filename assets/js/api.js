@@ -3,7 +3,7 @@ async function fetchFood(foodId) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'f29262b8f5msh4aa1a447652ef66p1d42c9jsn2d18d513287a',
+            'X-RapidAPI-Key': '5e5638caefmshfdcbb727f8d6e9dp1b8bbejsn5d89dde46ade',
             'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
         }
     };
@@ -21,26 +21,34 @@ async function fetchFood(foodId) {
 const displayFood = async (foodId) => {
     try {
         const singleFood = await fetchFood(foodId);
-        console.log(singleFood); // Log the singleFood object to inspect its structure
-        
-        const rootNode = document.createElement('div');
-        rootNode.innerHTML = `
-            <div id='food-detail-container'>
-                <div class="container mx-auto">
-                    <div class="flex size-48">
-                        <h1>${singleFood[0].desc}</h1> <!-- Make sure to update this line -->
-                        <div class="flex"
-                        <img>${singleFood[0].images[0].sm}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        `;
-        document.body.appendChild(rootNode);
+        console.log(singleFood);
+
+        const container = document.createElement("div");
+        container.id = 'food-container';
+        container.className = 'mb-4 text-base text-neutral-600 dark:text-neutral-200';
+
+        singleFood.forEach(food => {
+            const card = document.createElement('div');
+            card.className = 'mb-4 text-base text-neutral-600 dark:text-neutral-200';
+
+            const description = document.createElement('h1');
+            description.textContent = food.desc;
+
+            const image = document.createElement('img');
+            image.className = 'image-food-res';
+            image.src = food.images[0].sm;
+            image.alt = 'Food Image';
+
+            card.appendChild(description);
+            card.appendChild(image);
+
+            container.appendChild(card);
+        });
+
+        document.body.appendChild(container);
     } catch (error) {
         console.error(error);
     }
-};
-
+}
 // Example usage:
 displayFood(123); // Pass the foodId as an argument
