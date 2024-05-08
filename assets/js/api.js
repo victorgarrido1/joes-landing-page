@@ -3,7 +3,7 @@ async function fetchFood(foodId) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '5e5638caefmshfdcbb727f8d6e9dp1b8bbejsn5d89dde46ade',
+            'X-RapidAPI-Key': '289e490629msh3c1ed4168674102p1730d2jsn7ea3d55b4b84',
             'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
         }
     };
@@ -25,22 +25,31 @@ const displayFood = async (foodId) => {
 
         const container = document.createElement("div");
         container.id = 'food-container';
-        container.className = 'mb-4 text-base text-neutral-600 dark:text-neutral-200';
+        container.className = 'grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+        container.style.padding = '1rem'; // Add padding of 1 rem to all sides
+
 
         singleFood.forEach(food => {
             const card = document.createElement('div');
-            card.className = 'mb-4 text-base text-neutral-600 dark:text-neutral-200';
+            card.className = 'shadow-xl col-span-1 max-w-xs bg-gray-100 hover:bg-gray-200';
 
             const description = document.createElement('h1');
+            description.className = 'text-lg font-semibold'; // Adjust font size and weight
             description.textContent = food.desc;
 
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'flex justify-center'; // Center the image horizontally
+
             const image = document.createElement('img');
-            image.className = 'image-food-res';
+            image.className = 'image-food-res rounded border dark:border-neutral-700';
+            image.style.maxWidth = '100%'; // Ensure image doesn't overflow card
             image.src = food.images[0].sm;
             image.alt = 'Food Image';
 
+            imageContainer.appendChild(image);
+
             card.appendChild(description);
-            card.appendChild(image);
+            card.appendChild(imageContainer); // Append image container instead of image directly
 
             container.appendChild(card);
         });
@@ -51,4 +60,4 @@ const displayFood = async (foodId) => {
     }
 }
 // Example usage:
-displayFood(123); // Pass the foodId as an argument
+displayFood(123);
