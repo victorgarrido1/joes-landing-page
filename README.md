@@ -2,7 +2,7 @@
 
 --WORK IN PROGRESS--
 
-This is a simple website for a burger shop where users can view the menu, see reviews and learn about the companies history about the shop. This project showcases some of my early demononstration on website designs using CSS utilities and provides ideas and about how a website can be used for mutiuser purposes.
+This is a simple website for a burger shop where users can view the menu, see reviews and learn about the companies history about the shop. This project showcases some of my early demonstration on website designs using CSS utilities and provides ideas and about how a website can be used for multi user purposes.
 
 ## Screenshot of the application 
 <img width="1496" alt="joes_burger_shop" src="https://github.com/victorgarrido1/joes-landing-page/assets/139294878/4bfd1bcd-15a7-4b62-a12a-d9b2a90fb9a1">
@@ -12,14 +12,14 @@ This is a simple website for a burger shop where users can view the menu, see re
 * Newsletter subscription: Be able to subscribe to the companies news letter to follow promotions and deals.
 * About Us: Company history about its franchise and accessibility options for the user.
 * Menu: A menu that displays a image of the menu item and description.
-* Reviwes: A sections where a user can see reviews for the websites business.
+* Reviews: A sections where a user can see reviews for the websites business.
 
 
 ## Technologies Used
 
 * HTML 5
 * CSS / Tailwind (for styling)
-* JavaSscript (for card rendering
+* JavaScript (for card rendering)
 * Rapid API (to display menu items)
 * Google Fonts
 * Font Awesome
@@ -30,7 +30,7 @@ This is a simple website for a burger shop where users can view the menu, see re
 
 1. Clone the repository: `git clone git@github.com:victorgarrido1/joes-landing-page.git`
 2. Navigate to the project directory: `cd joes-landing-page`
-3. Open the `index.html` file in your web brower of choice to view the website from your local code editor.
+3. Open the `index.html` file in your web browser of choice to view the website from your local code editor.
 
 
 ## Usage
@@ -42,9 +42,9 @@ This is a simple website for a burger shop where users can view the menu, see re
 
 ## Future development
 
-* An idea to bring proper functuality of having the user post their own comments in the reviews page.
-* Intregrate more easy to use feature to make site more optimal for production ready examples.
-* Orginize cards and style them in template to display equal visualization for the whole application.
+* An idea to bring proper functionality of having the user post their own comments in the reviews page.
+* Integrate more easy to use feature to make site more optimal for production ready examples.
+* Organize cards and style them in template to display equal visualization for the whole application.
 
 
 ## Acknowledgments 
@@ -53,7 +53,7 @@ This is a simple website for a burger shop where users can view the menu, see re
 
 ## Questions
 
-If you have any questions relating this repository, please contact me on Github or via email here: vgarrido009@gmail.
+If you have any questions relating this repository, please contact me on Github or via email here: vgarrido009@gmail.com
 
 -- Part of the learning is to keep going in directions --
 
