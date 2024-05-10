@@ -7,22 +7,22 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       title: "Meet The 1 in 8",
       author: "Where you start stays with you.",
-      imagePath: "./assets/images/main/card_people.jpeg",
+      imagePath: "../assets/images/main/card_people.jpeg",
     },
     {
       title: "Leadership Team",
       author: "We would not be here without our leadership.",
-      imagePath: "./assets/images/main/card_leader.jpeg",
+      imagePath: "../assets/images/main/card_leader.jpeg",
     },
     {
       title: "Values in Action",
       author: "Follow the steps we take to be a good community leader.",
-      imagePath: "./assets/images/main/card_care.jpeg",
+      imagePath: "../assets/images/main/card_care.jpeg",
     },
     {
       title: "Investor Relations",
       author: "Find out what drives our business and see our reports. ",
-      imagePath: "./assets/images/main/card_investment.jpeg",
+      imagePath: "../assets/images/main/card_investment.jpeg",
     },
   ];
 

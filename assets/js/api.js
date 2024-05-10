@@ -3,7 +3,7 @@ async function fetchFood(foodId) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '289e490629msh3c1ed4168674102p1730d2jsn7ea3d55b4b84',
+            'X-RapidAPI-Key': '3065ca2efamsh5511818a494e23fp1cbb2cjsna2ae6a53946f',
             'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
         }
     };
