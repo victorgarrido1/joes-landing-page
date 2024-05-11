@@ -32,9 +32,11 @@ const userData = [
 
 // Function to create stars HTML
 function createStars(starClasses) {
-    const stars = starClasses.map(starClass => `<i class="${starClass}"></i>`).join('');
+    const stars = starClasses.map(starClass => `<i class="fas ${starClass}"></i>`).join('');
     return stars;
 }
+
+
 
 // Function to populate content for each card
 function populateContent(userData) {
@@ -51,8 +53,9 @@ function populateContent(userData) {
             </a>
         </div>
         <div class="reviews text-yellow-300 " id="reviewStars${index + 1}">
-            ${createStars(user.stars)}
-        </div>
+        <!-- Call the createStars function to generate star icons based on user.stars array -->
+        ${createStars(user.stars)}
+    </div>
         <div class="name-user flex flex-col mb-2" id="userName${index + 1}">
             <strong class="text-gray-900">${user.name}</strong>
             <span class="text-gray-500 text-xs">${user.handle}</span>
