@@ -3,18 +3,19 @@
 A website for a local burger shop, where you can subscribe to the business newsletter, see food menu choices, and read a small handful of user reviews. The website is designed to be lightly groovy with cooperation to make the site visually unique to view and create smiles as you browse around. 
 
 ## Screenshot of the application 
-<img width="1287" alt="joes_burger_shop_img_ver01" src="https://github.com/victorgarrido1/joes-landing-page/assets/139294878/4ecd2f10-da2d-4a9c-a852-846e55ec392f">
+
 
 ## Features
 
 * Newsletter subscription: Be able to subscribe to the company's newsletter letter to follow promotions and deals.
 * About Us: Company history about its franchise and accessibility options for the user.
 * Menu: A menu that displays an image of the menu item and description.
+<img width="1423" alt="joe-burger_shop_1_1" src="https://github.com/victorgarrido1/joes-landing-page/assets/139294878/fb3a8995-2002-49c5-a166-d00739385f3b">
 
 
 ## Preview of the application 
+![joe_burger_ver1 1](https://github.com/victorgarrido1/joes-landing-page/assets/139294878/a2e42e6d-8ba1-4685-be91-71680ed43a74)
 
-![joe_burger_shop_ver_01](https://github.com/victorgarrido1/joes-landing-page/assets/139294878/81b1253b-1581-4daa-bcbd-207402e2f6d3)
 
 ## Technologies Used
 
