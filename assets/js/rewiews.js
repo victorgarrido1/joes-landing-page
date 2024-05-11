@@ -49,7 +49,7 @@ function populateContent(userData) {
         </div>
         <div class="profile-img overflow-hidden rounded-full mr-4 mt-2">
             <a href='#' target="_blank" rel="noopener noreferrer" id="profileLink${index + 1}">
-                <img id="profileImage${index + 1}" src="${user.imageSrc}" alt="" class="w-full h-full object-cover rounded-full">
+            <img id="profileImage${index + 1}" src="${user.imageSrc}" alt="" class="w-full h-full object-cover rounded-full" loading="lazy">
             </a>
         </div>
         <div class="reviews text-yellow-300 " id="reviewStars${index + 1}">
